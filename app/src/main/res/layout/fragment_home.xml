@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Home">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SERABUT"
+        android:textSize="30dp"
+        android:fontFamily="@font/opensansbold"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="20dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="20dp">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/prog"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_baseline_arrow_back_24"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_baseline_arrow_forward_24"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="366dp"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:background="@drawable/shapetransparan"
+        android:backgroundTint="@android:color/darker_gray"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginLeft="280dp"
+        app:cardCornerRadius="100dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sumba"
+            android:translationZ="10dp"/>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ferdy Sumbul"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/opensansbold"
+        android:layout_marginTop="310dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="70dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Advanced Police"
+        android:textColor="@color/black"
+        android:layout_marginTop="340dp"
+        android:textSize="15dp"
+        android:layout_marginLeft="70dp"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/shapetransparan"
+        android:backgroundTint="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aktif"
+        android:fontFamily="@font/opensansbold"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="70dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="90dp"
+        android:background="@drawable/shape"
+        android:fontFamily="@font/opensansbold"
+        android:backgroundTint="@android:color/white"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="62dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="130dp"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="210dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/stadion"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cleaning Service"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="80dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Membersihkan Stadion"
+        android:layout_marginTop="500dp"
+        android:textSize="10dp"
+        android:layout_marginLeft="80dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btn_buat"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:text="+"
+        android:backgroundTint="#BCBABA"
+        android:layout_marginTop="605dp"
+        android:layout_marginLeft="290dp"/>
+
+
+
+
+
+</RelativeLayout>
